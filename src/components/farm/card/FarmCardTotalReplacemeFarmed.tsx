@@ -3,10 +3,10 @@ import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
-import { mojo_to_replaceme } from '../../../util/replaceme';
+import { mojo_to_chives } from '../../../util/chives';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 
-export default function FarmCardTotalReplacemeFarmed() {
+export default function FarmCardTotalChivesFarmed() {
   const currencyCode = useCurrencyCode();
 
   const loading = useSelector(
@@ -17,17 +17,17 @@ export default function FarmCardTotalReplacemeFarmed() {
     (state: RootState) => state.wallet_state.farmed_amount?.farmed_amount,
   );
 
-  const totalReplacemeFarmed = useMemo(() => {
+  const totalChivesFarmed = useMemo(() => {
     if (farmedAmount !== undefined) {
       const val = BigInt(farmedAmount.toString());
-      return mojo_to_replaceme(val);
+      return mojo_to_chives(val);
     }
   }, [farmedAmount]);
 
   return (
     <FarmCard
-      title={<Trans>{currencyCode} Total replaceme Farmed</Trans>}
-      value={totalReplacemeFarmed}
+      title={<Trans>{currencyCode} Total chives Farmed</Trans>}
+      value={totalChivesFarmed}
       loading={loading}
     />
   );

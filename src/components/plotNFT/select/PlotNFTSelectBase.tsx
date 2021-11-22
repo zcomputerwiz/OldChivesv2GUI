@@ -12,7 +12,7 @@ import {
   RadioGroup,
   Fee,
   TextField,
-} from '@replaceme/core';
+} from '@chives/core';
 import {
   Grid,
   FormControl,

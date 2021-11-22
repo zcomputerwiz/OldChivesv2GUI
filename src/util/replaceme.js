@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class replaceme {
+class chives {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,42 +73,42 @@ class replaceme {
   }
 }
 
-export const replaceme_formatter = (value, unit) => new replaceme(value, unit);
+export const chives_formatter = (value, unit) => new chives(value, unit);
 
-replaceme_formatter.convert = convert;
-replaceme_formatter.setDisplay = units.setDisplay;
-replaceme_formatter.setUnit = units.setUnit;
-replaceme_formatter.getUnit = units.getUnit;
-replaceme_formatter.setFiat = (currency, rate, display = null) => {
+chives_formatter.convert = convert;
+chives_formatter.setDisplay = units.setDisplay;
+chives_formatter.setUnit = units.setUnit;
+chives_formatter.getUnit = units.getUnit;
+chives_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_replaceme = (mojo) => {
-  return replaceme_formatter(Number.parseInt(mojo), 'mojo').to('replaceme').value();
+export const mojo_to_chives = (mojo) => {
+  return chives_formatter(Number.parseInt(mojo), 'mojo').to('chives').value();
 };
 
-export const replaceme_to_mojo = (replaceme) => {
-  return replaceme_formatter(Number.parseFloat(Number(replaceme)), 'replaceme')
+export const chives_to_mojo = (chives) => {
+  return chives_formatter(Number.parseFloat(Number(chives)), 'chives')
     .to('mojo')
     .value();
 };
 
-export const mojo_to_replaceme_string = (mojo) => {
-  return replaceme_formatter(Number(mojo), 'mojo').to('replaceme').toString();
+export const mojo_to_chives_string = (mojo) => {
+  return chives_formatter(Number(mojo), 'mojo').to('chives').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return replaceme_formatter(Number.parseInt(mojo), 'mojo')
+  return chives_formatter(Number.parseInt(mojo), 'mojo')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
-  return replaceme_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
+  return chives_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return replaceme_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return chives_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
 };

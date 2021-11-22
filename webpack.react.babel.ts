@@ -4,7 +4,7 @@ import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import LoadablePlugin from '@loadable/webpack-plugin';
 import TerserPlugin from 'terser-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
+import LodashModuleChivesntPlugin from 'lodash-webpack-plugin';
 
 const PORT = 3000;
 const CONTEXT = __dirname;
@@ -80,8 +80,8 @@ export default {
       'node_modules',
     ],
     alias: {
-      "@replaceme/core": `${__dirname}/src/components/core`,
-      "@replaceme/icons": `${__dirname}/src/components/icons`,
+      "@chives/core": `${__dirname}/src/components/core`,
+      "@chives/icons": `${__dirname}/src/components/icons`,
       crypto: 'crypto-browserify',
       stream: 'stream-browserify',
     },
@@ -117,7 +117,7 @@ export default {
   },
   plugins: [
     new LoadablePlugin(),
-    new LodashModuleReplacementPlugin({
+    new LodashModuleChivesntPlugin({
       paths: true,
       flattening: true,
       shorthands: true,

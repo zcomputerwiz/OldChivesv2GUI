@@ -1,6 +1,6 @@
 import React, { useState, forwardRef } from 'react';
 import { Trans } from '@lingui/macro';
-import { Button, CardStep, Select, Flex, Loading } from '@replaceme/core';
+import { Button, CardStep, Select, Flex, Loading } from '@chives/core';
 import {
   Box,
   Grid,

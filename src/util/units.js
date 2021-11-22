@@ -1,17 +1,17 @@
 const units = {
-  replaceme: 1,
+  chives: 1,
   mojo: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  replaceme: ['ch', 'replaceme', 'replaceme'],
+  chives: ['ch', 'chives', 'chives'],
   mojo: ['mj', 'mojo'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
-  replaceme: {
+  chives: {
     format: '{amount} CH',
     fractionDigits: 12,
   },

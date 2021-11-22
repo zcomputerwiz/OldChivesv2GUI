@@ -2,8 +2,8 @@ const units = require('../../util/units');
 
 describe('units', () => {
   describe('#getUnit', () => {
-    it('gets unit of replaceme', () => {
-      const result = units.getUnit('replaceme');
+    it('gets unit of chives', () => {
+      const result = units.getUnit('chives');
 
       expect(result).toBe(1);
     });
@@ -18,11 +18,11 @@ describe('units', () => {
       expect(result).toBe(1e-9);
     });
     it('supports uppercase characters', () => {
-      const result = units.getUnit('replaceme');
+      const result = units.getUnit('chives');
 
       expect(result).toBe(1);
     });
-    it('gets unit of replaceme using alias', () => {
+    it('gets unit of chives using alias', () => {
       const result = units.getUnit('ch');
 
       expect(result).toBe(1);
@@ -46,8 +46,8 @@ describe('units', () => {
     });
   });
   describe('#getDisplay', () => {
-    it('gets display of replaceme', () => {
-      const result = units.getDisplay('replaceme');
+    it('gets display of chives', () => {
+      const result = units.getDisplay('chives');
 
       expect(result).toEqual({
         format: '{amount} CH',
@@ -87,13 +87,13 @@ describe('units', () => {
       expect(result).toEqual(1);
     });
     it('modifies an existing unit', () => {
-      units.setUnit('replaceme', 9);
+      units.setUnit('chives', 9);
 
-      const result = units.getUnit('replaceme');
+      const result = units.getUnit('chives');
 
       expect(result).toEqual(9);
 
-      units.setUnit('replaceme', 1);
+      units.setUnit('chives', 1);
     });
   });
   describe('#setDisplay', () => {
@@ -111,12 +111,12 @@ describe('units', () => {
       });
     });
     it('updates an existing display', () => {
-      units.setDisplay('replaceme', {
+      units.setDisplay('chives', {
         format: '{amount} TXCH',
         fractionDigits: 0,
       });
 
-      const result = units.getDisplay('replaceme');
+      const result = units.getDisplay('chives');
 
       expect(result).toEqual({
         format: '{amount} TXCH',
