@@ -1,6 +1,6 @@
 {
     "name": "chives-blockchain",
-    "author": "chives Network <hello@chives.net> (https://chives.net/)",
+    "author": "chives Network <hello@chivescoin.org> (https://chivescoin.org/)",
     "description": "GUI for chives Blockchain",
     "productName": "chives Blockchain",
     "private": true,

@@ -1,5 +1,5 @@
 # chives-blockchain
-![Alt text](https://www.chives.net/img/chives_logo.svg)
+![Alt text](https://www.chivescoin.org/img/chives_logo.svg)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/chives-Network/chives-blockchain?logo=GitHub)
 
