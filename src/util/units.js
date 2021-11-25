@@ -1,11 +1,11 @@
 const units = {
   chives: 1,
-  mojo: 1 / 1e12,
-  colouredcoin: 1 / 1e9,
+  mojo: 1 / 1e8,
+  colouredcoin: 1 / 1e3,
 };
 
 const aliases = {
-  chives: ['ch', 'chives', 'chives'],
+  chives: ['ch', 'chives', 'Chives'],
   mojo: ['mj', 'mojo'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
@@ -13,7 +13,7 @@ const aliases = {
 const display = {
   chives: {
     format: '{amount} CH',
-    fractionDigits: 12,
+    fractionDigits: 8,
   },
   mojo: {
     format: '{amount} MJ',
