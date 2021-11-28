@@ -60,8 +60,8 @@ msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About chives Blockchain"
-msgstr "Mehr über die chives Blockchain"
+msgid "About Chives Blockchain"
+msgstr "Mehr über die Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -251,7 +251,7 @@ msgstr "Block VDF Iterationen"
 
 #: src/components/block/Block.jsx:337
 msgid "Block at height {0} in the chives blockchain"
-msgstr "Block der Höhe {0} in der chives Blockchain"
+msgstr "Block der Höhe {0} in der Chives Blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -359,8 +359,8 @@ msgid "chives"
 msgstr "chives"
 
 #: src/electron/main.tsx:367
-msgid "chives Blockchain Wiki"
-msgstr "chives Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
 msgid "chives Wallet"

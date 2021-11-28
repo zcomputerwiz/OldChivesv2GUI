@@ -36,8 +36,8 @@ msgstr "'n Stroper (Harvester) is 'n robot wat werk op dieselfde masjien wat lan
 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
-msgid "About chives Blockchain"
-msgstr "Inligting oor chives Blockchain"
+msgid "About Chives Blockchain"
+msgstr "Inligting oor Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -272,8 +272,8 @@ msgid "chives"
 msgstr "chives"
 
 #: src/electron/main.tsx:312
-msgid "chives Blockchain Wiki"
-msgstr "chives Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "chives Wallet"

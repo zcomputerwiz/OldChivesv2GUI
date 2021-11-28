@@ -60,7 +60,7 @@ msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About chives Blockchain"
+msgid "About Chives Blockchain"
 msgstr "Informazioni sulla Blockchain di chives"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -359,7 +359,7 @@ msgid "chives"
 msgstr "chives"
 
 #: src/electron/main.tsx:367
-msgid "chives Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
 msgstr "Wiki della Blockchain chives"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642

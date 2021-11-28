@@ -48,8 +48,8 @@ msgstr "A harvestr iz service runnin on machine wer plot(s) r akshully stord. Fa
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About chives Blockchain"
-msgstr "Bout chives Blockchain"
+msgid "About Chives Blockchain"
+msgstr "Bout Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -329,8 +329,8 @@ msgid "chives"
 msgstr "chives"
 
 #: src/electron/main.tsx:358
-msgid "chives Blockchain Wiki"
-msgstr "chives Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "chives Wallet"

@@ -60,7 +60,7 @@ msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About chives Blockchain"
+msgid "About Chives Blockchain"
 msgstr "关于奇亚chives区块链项目"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -359,7 +359,7 @@ msgid "chives"
 msgstr "奇亚"
 
 #: src/electron/main.tsx:367
-msgid "chives Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
 msgstr "奇亚区块链项目维基"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642

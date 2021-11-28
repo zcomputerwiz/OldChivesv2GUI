@@ -48,8 +48,8 @@ msgstr "Harvester Service กำลังทำงานอยู่บนเค
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About chives Blockchain"
-msgstr "เกี่ยวกับ chives Blockchain"
+msgid "About Chives Blockchain"
+msgstr "เกี่ยวกับ Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -329,8 +329,8 @@ msgid "chives"
 msgstr "chives"
 
 #: src/electron/main.tsx:358
-msgid "chives Blockchain Wiki"
-msgstr "chives Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "chives Wallet"

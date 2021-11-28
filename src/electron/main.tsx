@@ -364,7 +364,7 @@ if (!handleSquirrelEvent()) {
         role: 'help',
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'chives Blockchain Wiki' }),
+            label: i18n._(/* i18n */ { id: 'Chives Blockchain Wiki' }),
             click: () => {
               openExternal(
                 'https://github.com/chives-Network/chives-blockchain/wiki',
@@ -423,12 +423,12 @@ if (!handleSquirrelEvent()) {
     ];
 
     if (process.platform === 'darwin') {
-      // chives Blockchain menu (Mac)
+      // Chives Blockchain menu (Mac)
       template.unshift({
         label: i18n._(/* i18n */ { id: 'chives' }),
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'About chives Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'About Chives Blockchain' }),
             click: () => {
               openAbout();
             },
@@ -515,7 +515,7 @@ if (!handleSquirrelEvent()) {
           type: 'separator',
         },
         {
-          label: i18n._(/* i18n */ { id: 'About chives Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Chives Blockchain' }),
           click() {
             openAbout();
           },

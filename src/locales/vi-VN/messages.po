@@ -24,7 +24,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 msgid "*Want to explore chives’s blocks further? Check out <0>chives Explorer</0> built by an open source developer."
-msgstr "* Bạn muốn khám phá thêm về chives Blockchain? Xem <0> chives Explorer </0> được xây dựng bởi các nhà phát triển nguồn mở."
+msgstr "* Bạn muốn khám phá thêm về Chives Blockchain? Xem <0> chives Explorer </0> được xây dựng bởi các nhà phát triển nguồn mở."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,8 @@ msgstr "Harvester là một dịch vụ chạy trên một máy chứa các tệ
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About chives Blockchain"
-msgstr "Về chives Blockchain"
+msgid "About Chives Blockchain"
+msgstr "Về Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -329,8 +329,8 @@ msgid "chives"
 msgstr "chives"
 
 #: src/electron/main.tsx:358
-msgid "chives Blockchain Wiki"
-msgstr "chives Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "chives Wallet"

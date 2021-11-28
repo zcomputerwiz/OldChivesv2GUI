@@ -15,7 +15,7 @@ function getInstallerConfig () {
 
   return Promise.resolve({
     appDirectory: path.join(rootPath, 'chives-win32-x64'),
-    authors: 'chives Network',
+    authors: 'Chives Network',
     version: process.env.chives_INSTALLER_VERSION,
     noMsi: true,
     iconUrl: 'https://raw.githubusercontent.com/chives-Network/chives-blockchain/master/electron-react/src/assets/img/chives.ico',
@@ -23,7 +23,7 @@ function getInstallerConfig () {
     certificateFile: 'win_code_sign_cert.p12',
     certificatePassword: process.env.WIN_CODE_SIGN_PASS,
     exe: 'chives.exe',
-    setupExe: 'chivesSetup-' + process.env.chives_INSTALLER_VERSION + '.exe',
+    setupExe: 'ChivesSetup-' + process.env.chives_INSTALLER_VERSION + '.exe',
     setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'chives.ico')
   })
 }
