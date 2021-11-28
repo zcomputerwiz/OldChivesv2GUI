@@ -45,7 +45,7 @@ export default function PlotAddChooseSize(props: Props) {
   async function getConfirmation() {
     const canUse = await openDialog(
       <ConfirmDialog
-        title={<Trans>The minimum required size for mainnet is k=32</Trans>}
+        title={<Trans>The minimum required size for mainnet is k=29</Trans>}
         confirmTitle={<Trans>Yes</Trans>}
         confirmColor="danger"
       >
@@ -57,7 +57,7 @@ export default function PlotAddChooseSize(props: Props) {
     if (canUse) {
       setValue('overrideK', true);
     } else {
-      setValue('plotSize', 32);
+      setValue('plotSize', 29);
     }
   }
 
@@ -102,7 +102,7 @@ export default function PlotAddChooseSize(props: Props) {
             </Select>
             {isKLow && (
               <StyledFormHelperText>
-                <Trans>The minimum required size for mainnet is k=32</Trans>
+                <Trans>The minimum required size for mainnet is k=29</Trans>
               </StyledFormHelperText>
             )}
           </FormControl>
