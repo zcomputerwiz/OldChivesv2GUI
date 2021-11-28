@@ -80,7 +80,7 @@ export default function PlotAddChoosePlotter(props: Props) {
 
     return displayName;
   };
-
+/* Remove BladeBit as it only supports K32
   const plotterWarningString = (plotterName: PlotterName | undefined): string | undefined => {
     if (plotterName === PlotterName.BLADEBIT) {
       return availablePlotters[PlotterName.BLADEBIT]?.installInfo?.bladebitMemoryWarning;
@@ -89,7 +89,8 @@ export default function PlotAddChoosePlotter(props: Props) {
   };
 
   const warning = plotterWarningString(plotterName);
-
+*/
+  const warning = undefined;
   return (
     <CardStep step={step} title={<Trans>Choose Plotter</Trans>}>
       <Typography variant="subtitle1">

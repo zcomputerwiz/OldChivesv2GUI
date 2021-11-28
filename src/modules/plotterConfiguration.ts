@@ -48,7 +48,7 @@ export default function plotterConfigurationReducer(
               installInfo: {
                 installed: installInfo.installed,
                 canInstall: installInfo.can_install,
-                bladebitMemoryWarning: installInfo.bladebit_memory_warning,
+/*                bladebitMemoryWarning: installInfo.bladebit_memory_warning,*/
               },
             };
           });
