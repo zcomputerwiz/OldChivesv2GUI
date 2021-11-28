@@ -15,7 +15,7 @@ import { plotSizeOptions } from '../../../constants/plotSizes';
 import useOpenDialog from '../../../hooks/useOpenDialog';
 import Plotter from '../../../types/Plotter';
 
-const MIN_MAINNET_K_SIZE = 32;
+const MIN_MAINNET_K_SIZE = 29;
 
 const StyledFormHelperText = styled(FormHelperText)`
   color: ${StateColor.WARNING};
