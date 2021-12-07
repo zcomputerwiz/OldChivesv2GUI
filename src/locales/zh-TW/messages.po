@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: zh-TW\n"
-"X-Crowdin-File: /[chives-Network.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HiveProject2021.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(選用)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore chives’s blocks further? Check out <0>chives Explorer</0> built by an open source developer."
-msgstr "＊想更進一步探索 chives 區塊鍵？看看開源開發者打造的 <0>chives Explorer</0>"
+msgid "*Want to explore chives’s blocks further? Check out <0>Chives Explorer</0> built by an open source developer."
+msgstr "＊想更進一步探索 chives 區塊鍵？看看開源開發者打造的 <0>Chives Explorer</0>"
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -363,7 +363,7 @@ msgid "Chives Blockchain Wiki"
 msgstr "chives 區塊鏈維基"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "chives Wallet"
+msgid "Chives Wallet"
 msgstr "chives 錢包"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
@@ -724,7 +724,7 @@ msgstr ""
 #~ msgstr "刪除此金鑰將會永久從你的電腦中移除，請確保你有備份。你確定要繼續？"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default chives Proof of Space plotter. If unsure, use the default chives Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -2615,7 +2615,7 @@ msgid "Total Balance"
 msgstr "總餘額"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:15
-#~ msgid "Total chives Farmed"
+#~ msgid "Total Chives Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -3084,7 +3084,7 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} 區塊獎勵"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:29
-msgid "{currencyCode} Total chives Farmed"
+msgid "{currencyCode} Total Chives Farmed"
 msgstr "{currencyCode} 已收耕 chives"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: el\n"
-"X-Crowdin-File: /[chives-Network.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HiveProject2021.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore chives’s blocks further? Check out <0>chives Explorer</0> built by an open source developer."
-msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της chives? Δοκιμάστε το <0>chives Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
+msgid "*Want to explore chives’s blocks further? Check out <0>Chives Explorer</0> built by an open source developer."
+msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της chives? Δοκιμάστε το <0>Chives Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -363,7 +363,7 @@ msgid "Chives Blockchain Wiki"
 msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "chives Wallet"
+msgid "Chives Wallet"
 msgstr "Πορτοφόλι chives"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
@@ -724,7 +724,7 @@ msgstr ""
 #~ msgstr "Διαγραφή του κλειδιού θα αφαιρέσει μόνιμα το κλειδί από τον υπολογιστή σας, βεβαιωθείτε ότι έχετε αντίγραφο ασφαλείας. Είστε σίγουροι ότι θέλετε να συνεχίσετε;"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default chives Proof of Space plotter. If unsure, use the default chives Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -2615,7 +2615,7 @@ msgid "Total Balance"
 msgstr "Συνολικό Υπόλοιπο"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:15
-#~ msgid "Total chives Farmed"
+#~ msgid "Total Chives Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -3084,7 +3084,7 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Ανταμοιβές μπλοκ"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:29
-msgid "{currencyCode} Total chives Farmed"
+msgid "{currencyCode} Total Chives Farmed"
 msgstr "{currencyCode} Σύνολο chives που έχουν γίνει Farmed"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

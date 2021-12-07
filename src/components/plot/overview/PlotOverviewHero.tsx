@@ -38,7 +38,7 @@ export default function PlotOverviewHero() {
               }
               <Link
                 target="_blank"
-                href="https://github.com/chives-Network/chives-blockchain/wiki/Network-Architecture"
+                href="https://github.com/HiveProject2021/chives-blockchain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

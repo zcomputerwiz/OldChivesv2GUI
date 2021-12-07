@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: no\n"
-"X-Crowdin-File: /[chives-Network.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HiveProject2021.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore chives’s blocks further? Check out <0>chives Explorer</0> built by an open source developer."
-msgstr "*Vil du utforske chives bokkene? Sjekk ut <0>chives Utforsker</0> bygget av en åpen kildekode utvikler."
+msgid "*Want to explore chives’s blocks further? Check out <0>Chives Explorer</0> built by an open source developer."
+msgstr "*Vil du utforske chives bokkene? Sjekk ut <0>Chives Utforsker</0> bygget av en åpen kildekode utvikler."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -363,8 +363,8 @@ msgid "Chives Blockchain Wiki"
 msgstr "Chives Blokkjede Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "chives Wallet"
-msgstr "chives Pengbok"
+msgid "Chives Wallet"
+msgstr "Chives Pengbok"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 msgid "Choose Number of Plots"
@@ -724,7 +724,7 @@ msgstr ""
 #~ msgstr "Sletting av nøkkel vil fjerne nøkkel fra datamaskinen permanent, sørg for at du har sikkerhetskopier. Er du sikker på at du vil fortsette?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default chives Proof of Space plotter. If unsure, use the default chives Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -2615,7 +2615,7 @@ msgid "Total Balance"
 msgstr "Total saldo"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:15
-#~ msgid "Total chives Farmed"
+#~ msgid "Total Chives Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -3084,7 +3084,7 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} blokk belønninger"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:29
-msgid "{currencyCode} Total chives Farmed"
+msgid "{currencyCode} Total Chives Farmed"
 msgstr "{currencyCode} Total chives høstet"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

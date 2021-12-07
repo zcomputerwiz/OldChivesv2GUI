@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ru\n"
-"X-Crowdin-File: /[chives-Network.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HiveProject2021.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(Необязательно)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore chives’s blocks further? Check out <0>chives Explorer</0> built by an open source developer."
-msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>chives Explorer</0>, созданный на основе открытого исходного кода."
+msgid "*Want to explore chives’s blocks further? Check out <0>Chives Explorer</0> built by an open source developer."
+msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>Chives Explorer</0>, созданный на основе открытого исходного кода."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -440,7 +440,7 @@ msgstr ""
 "Шаг 2 - Выбранный участок проверяется на выигрышный хэш. Итак, в качестве примера - ваша система работает - есть 5 строк, если у вас 157 графиков - каждая из 5 строк читает 0/157. Если выбран график или второй график, это хорошая новость, и число изменится на 1/157 или 2/157, может быть, 3/157. После прохождения фильтра каждый выбранный участок будет проходить «качественный поиск», который выполняет примерно 7 считываний на вашем графике и сообщает вам, выиграли ли участки. Если вы выиграли, это не показывает никаких признаков, так как транзакция выполняется быстро. Ваш кошелек увеличивается.\n"
 "\n"
 "Как только это совпадение появится в первой строке, оно переместится вниз к строкам 2-5, затем, если другой график пройдет шаг 1, он также начнется сверху, amd переместится, выполнив процесс фильтрации.\n"
-"Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/chives-Network/chives-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
+"Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/HiveProject2021/chives-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
 "\n"
 "Если по какой-то причине эти строки перестают двигаться, это еще один признак того, что вы не синхронизированы с базой данных и вам необходимо выполнить повторную синхронизацию - см. Ниже.\n"
 "\n"
@@ -514,7 +514,7 @@ msgstr ""
 "Примечания. \n"
 "Предлагается использовать дополнительное хранилище SSD или NVME для создания полей, а не основной жесткий диск (особенно для несменного NVME, например, на некоторых Mac или ноутбуках с Windows). Если по какой-то причине процесс записи поля не может быть завершен, его следует удален, удалив все временные файлы. Будьте осторожны, чтобы не удалить временные файлы другого строящегося поля.\n"
 "\n"
-"В Windows вы можете использовать chives CLI из Windows PowerShell, что обеспечивает большую гибкость и контроль. PowerShell - это программа, в которой вы вводите команды, нажимаете клавишу ВВОД и выполняете такие действия, как изменение папок, перемещение файлов или запуск программ, таких как chives.\n"
+"В Windows вы можете использовать Chives CLI из Windows PowerShell, что обеспечивает большую гибкость и контроль. PowerShell - это программа, в которой вы вводите команды, нажимаете клавишу ВВОД и выполняете такие действия, как изменение папок, перемещение файлов или запуск программ, таких как chives.\n"
 "\n"
 "1. Параллельное построение с использованием PowerShell\n"
 "    cd C:\\Users\\yourUserName\\AppData\\Local\\Chives-Blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\\\n"
@@ -535,7 +535,7 @@ msgstr ""
 "Приведенная выше команда создает одио поле (указывается -n 1), для параллельного построения вам нужно повторить команду (не закрывая первую). Увеличьте значение -n для последовательного построения, то есть после завершения первого участка запускается следующий."
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "chives Wallet"
+msgid "Chives Wallet"
 msgstr "Кошелек chives"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
@@ -896,7 +896,7 @@ msgstr ""
 #~ msgstr "Удаление ключа приведет к безвозвратному удалению ключа с вашего компьютера, убедитесь, что у вас есть резервные копии. Вы уверены что хотите продолжить?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default chives Proof of Space plotter. If unsure, use the default chives Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -2787,7 +2787,7 @@ msgid "Total Balance"
 msgstr "Итоговый баланс"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:15
-#~ msgid "Total chives Farmed"
+#~ msgid "Total Chives Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -3256,7 +3256,7 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Награда за блок"
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:29
-msgid "{currencyCode} Total chives Farmed"
+msgid "{currencyCode} Total Chives Farmed"
 msgstr "{currencyCode} Всего Чиа выращено"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

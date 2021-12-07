@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: si-LK\n"
-"X-Crowdin-File: /[chives-Network.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HiveProject2021.chives-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,7 +23,7 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore chives’s blocks further? Check out <0>chives Explorer</0> built by an open source developer."
+msgid "*Want to explore chives’s blocks further? Check out <0>Chives Explorer</0> built by an open source developer."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
@@ -333,7 +333,7 @@ msgid "Chives Blockchain Wiki"
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
-msgid "chives Wallet"
+msgid "Chives Wallet"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
@@ -2339,7 +2339,7 @@ msgid "Total Balance"
 msgstr ""
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:15
-#~ msgid "Total chives Farmed"
+#~ msgid "Total Chives Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2744,7 +2744,7 @@ msgid "{currencyCode} Block Rewards"
 msgstr ""
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:29
-msgid "{currencyCode} Total chives Farmed"
+msgid "{currencyCode} Total Chives Farmed"
 msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

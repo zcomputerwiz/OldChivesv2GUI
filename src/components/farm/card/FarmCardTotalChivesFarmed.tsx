@@ -26,7 +26,7 @@ export default function FarmCardTotalChivesFarmed() {
 
   return (
     <FarmCard
-      title={<Trans>{currencyCode} Total chives Farmed</Trans>}
+      title={<Trans>{currencyCode} Total Chives Farmed</Trans>}
       value={totalChivesFarmed}
       loading={loading}
     />

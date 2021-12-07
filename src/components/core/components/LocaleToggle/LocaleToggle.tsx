@@ -43,7 +43,7 @@ export default function LocaleToggle(props: Props) {
     handleClose();
 
     openExternal(
-      'https://github.com/chives-Network/chives-blockchain-gui/tree/main/src/locales/README.md',
+      'https://github.com/HiveProject2021/chives-blockchain-gui/tree/main/src/locales/README.md',
     );
   }
 

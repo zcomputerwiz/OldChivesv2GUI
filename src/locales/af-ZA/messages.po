@@ -19,8 +19,8 @@ msgstr ""
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
-msgid "*Want to explore chives’s blocks further? Check out <0>chives Explorer</0> built by an open source developer."
-msgstr "*Wil jy dalk die chives blokke verder wil ondersoek? Gaan kyk na <0>chives Explorer<0>, gebou deur a 'n open source programmeerder."
+msgid "*Want to explore chives’s blocks further? Check out <0>Chives Explorer</0> built by an open source developer."
+msgstr "*Wil jy dalk die chives blokke verder wil ondersoek? Gaan kyk na <0>Chives Explorer<0>, gebou deur a 'n open source programmeerder."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -276,7 +276,7 @@ msgid "Chives Blockchain Wiki"
 msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "chives Wallet"
+msgid "Chives Wallet"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
@@ -1759,7 +1759,7 @@ msgid "Total Balance"
 msgstr ""
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:15
-#~ msgid "Total chives Farmed"
+#~ msgid "Total Chives Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:191
@@ -2045,7 +2045,7 @@ msgid "{currencyCode} Block Rewards"
 msgstr ""
 
 #: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:17
-msgid "{currencyCode} Total chives Farmed"
+msgid "{currencyCode} Total Chives Farmed"
 msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17

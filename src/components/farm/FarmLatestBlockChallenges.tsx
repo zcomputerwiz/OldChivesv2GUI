@@ -68,7 +68,7 @@ export default function FarmLatestBlockChallenges() {
             href="https://www.chivesexplorer.com/"
             target="_blank"
           >
-            chives Explorer
+            Chives Explorer
           </Link>{' '}
           built by an open source developer.
         </Trans>

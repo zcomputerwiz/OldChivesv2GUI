@@ -96,8 +96,8 @@ export default function PlotAddChoosePlotter(props: Props) {
       <Typography variant="subtitle1">
         <Trans>
             Depending on your system configuration, you may find that an alternative plotter
-            produces plots faster than the default chives Proof of Space plotter. If unsure,
-            use the default chives Proof of Space plotter.
+            produces plots faster than the default Chia Proof of Space plotter. If unsure,
+            use the default Chia Proof of Space plotter.
         </Trans>
       </Typography>
 

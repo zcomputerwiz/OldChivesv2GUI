@@ -4,12 +4,12 @@ Welcome to the chives-blockchain project!
 We are happy that you are taking a look at the code for chives, a proof of space and time cryptocurrency.
 
 A lot of fascinating new cryptography and blockchain concepts are used and implemented here.
-This repo includes the code for the chives GUI in electron/react and TypeScript.
+This repo includes the code for the Chives GUI in electron/react and TypeScript.
 
-It is an input to the [chives-blockchain](https://github.com/chives-Network/chives-blockchain) repository which also includes a verifiable delay function implementation that it imports from the [chivesvdf repo](https://github.com/chives-Network/chivesvdf) (in c/c++), and a proof of space implementation that it imports from the [chivespos repo](https://github.com/chives-Network/chivespos). BLS signatures are imported from the [bls-signatures repo](https://github.com/chives-Network/bls-signatures) as blspy. There is an additional dependency on the [chivesbip158 repo](https://github.com/chives-Network/chivesbip158).
+It is an input to the [chives-blockchain](https://github.com/C/chives-blockchain) repository which also includes a verifiable delay function implementation that it imports from the [chiavdf repo](https://github.com/Chia-Network/chiavdf) (in c/c++), and a proof of space implementation that it imports from the [chiapos repo](https://github.com/Chia-Network/chiapos). BLS signatures are imported from the [bls-signatures repo](https://github.com/Chia-Network/bls-signatures) as blspy. There is an additional dependency on the [chiabip158 repo](https://github.com/Chia-Network/chiabip158).
 For major platforms, binary and source wheels are shipped to PyPI from each dependent repo and then chives-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows and MacOS installer. On unsupported platforms, pip will fall back to the source distributions to be compiled locally.
 
-If you want to learn more about this project, read the [wiki](https://github.com/chives-Network/chives-blockchain/wiki), or check out the [green paper](https://www.chivescoin.org/assets/chivesGreenPaper.pdf).
+If you want to learn more about this project, read the [wiki](https://github.com/HiveProject2021/chives-blockchain/wiki), or check out the [green paper](https://www.chivescoin.org/assets/chivesGreenPaper.pdf).
 
 ## Contributions
 
